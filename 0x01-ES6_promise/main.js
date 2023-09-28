@@ -1,5 +1,4 @@
-import getFullResponseFromAPI from './1-promise';
+import signUpUser from "./4-user-promise";
 
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));
+console.log(signUpUser("Bob", "Dylan"));
 
