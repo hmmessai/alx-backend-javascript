@@ -1,5 +1,7 @@
-import ClassRoom from "./0-classroom.js";
+import Pricing from './4-pricing.js';
+import Currency from './3-currency.js';
 
-const room = new ClassRoom(10);
-console.log(room._maxStudentsSize)
+const p = new Pricing(100, new Currency("EUR", "Euro"))
+console.log(p);
+console.log(p.displayFullPrice());
 
