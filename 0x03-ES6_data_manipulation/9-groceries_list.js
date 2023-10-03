@@ -1,6 +1,6 @@
 export default function groceriesList() {
   return new Map(Object.entries({
-    Apple: 10,
+    Apples: 10,
     Tomatoes: 10,
     Pasta: 1,
     Rice: 1,
