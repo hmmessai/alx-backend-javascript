@@ -28,7 +28,7 @@ function countStudents(path) {
       .map((propName, idx) => [propName, studentPropValues[idx]]);
     studentGroups[field].push(Object.fromEntries(studentEntries));
   }
-  
+
   const totalStudents = Object
     .values(studentGroups)
     .reduce((pre, cur) => (pre || []).length + cur.length);
